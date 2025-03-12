@@ -3,14 +3,18 @@ ul,ul li{margin:0;padding:0;list-style:none}
 h1,h2,h3,p,form{margin:0;padding:0}.clear{clear:both}
 img{border:none}
 #contenedor{width:90%;max-width:900px;margin:0px auto}
-#cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{border-style: initial;}
+#cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{border-style: initial;}/*Eliminar
+	el	borde	gris	que	muestran	por	defecto	todos	los	elementos.*/
 #cabecera{clear:both}
-#menu{clear:both; border-bottom: 1px solid #004C99;}
-#noticias{border: 1px solid #C5C5C5}
+#menu{clear:both; border-bottom: 1px solid #004C99;} /*El	elemento #menu debe	tener
+	un	borde	inferior	de	1	píxel	y	azul	(#004C99).*/
+#noticias{border: 1px solid #C5C5C5} /*El	elemento #noticias muestra	un	borde	de	1	píxel	y	gris	claro	(#C5C5C5)*/
 #lateral{float:left;width:20%}
 #contenido{float:right;width:78%}
 #contenido #principal{float:left;width:78%}
-#contenido #secundario{float:right;width:20%; border: 1px solid #CC6600}
+#contenido #secundario{float:right;width:20%; border: 1px solid #CC6600}/*El	 lateral
+	 formado	 por	 el	 elemento #secundario muestra	 un	 borde	 de	 1	 píxel	 y	 de	
+color #CC6600*/
 #pie{clear:both}
 #cabecera #logo{float:left}
 #cabecera #buscador{float:right}
@@ -23,7 +27,10 @@ img{border:none}
 #menu{margin-bottom:.5em}
 #contenido{width:77%;padding:0}
 #contenido #principal{width:73%}
-#pie{padding:.5em 0;margin-top:1em; border-top: 1px solid#C5C5C5; border-bottom: 1px solid#C5C5C5 }
+#pie{padding:.5em 0;margin-top:1em; border-top: 1px solid#C5C5C5; border-bottom: 1px solid#C5C5C5 } /*El	elemento 
+#pie debe	mostrar	 un	 borde	 superior	y	 otro	inferior	 de	 1	 píxel	y	 color	gris	
+claro #C5C5C5.*/
 #contenido #principal .articulo{margin-bottom:1em}
 #contenido #principal .articulo img{margin:.5em}
-#lateral #publicidad{margin-top:1em; border: 1px dashed #CC6600}
+#lateral #publicidad{margin-top:1em; border: 1px dashed #CC6600} /*El	elemento #publicidad debe	mostrar	un	borde
+	discontinuo	de	1	píxel	y	de	color #CC6600*/

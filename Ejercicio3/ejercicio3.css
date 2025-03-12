@@ -9,12 +9,8 @@ img{border:none}
 
 #contenedor{width:90%;
     max-width:900px;
-    margin:0px auto;
+    margin:0px auto
 }
-/*4. Los	elementos .articulo deben	mostrar	una	separación	entre	ellos	de 1em.
-5. Las	imágenes	de	los	artículos	muestran	un	margen	de 0.5em en	todos	sus	lados.
-6. El	elemento #publicidad está	separado 1em de	su	elemento	superior.
-7. El	elemento #pie debe	tener	un	margen	superior	de 1em.*/
 
 #cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{border:2px solid #777}
 #cabecera{
