@@ -10,20 +10,28 @@ img{border:none}
 #contenido #principal{float:left;width:78%}
 #contenido #secundario{float:right;width:20%}
 #pie{clear:both}
-#cabecera #logo{float:left; background-image:url(./sources/logo.gif );}
+#cabecera #logo{float:left; background-image:url(./sources/logo.gif );}/*El	 logotipo	 del	 sitio	 se	 muestra	 mediante	 una	 imagen	 de	 fondo	 del	
+elemento <h1> contenido	en	el	elemento #cabecera (la	imagen	se	llama logo.gif).*/
 #cabecera #buscador{float:right}
 #menu ul#menu_principal li{display:inline;float:left}
-#contenido #principal .articulo img{width:100px;float:left; background-image:url(sources/fondo_menu.gif)}
+#contenido #principal .articulo img{width:100px;float:left;}
 #pie .enlaces{float:left}#pie .copyright{float:right}
 #cabecera,#menu,#lateral,#lateral #noticias,#lateral #publicidad,#contenido,#contenido #principal,#contenido #secundario,#pie{padding:.5em;border:none}#lateral{padding:0}
 #cabecera{padding:1em}
-#menu{margin-bottom:.5em;border-bottom:1px solid #004c99}
+#menu{margin-bottom:.5em;border-bottom:1px solid #004c99; background-image: url(./sources/fondo_menu.gif);}/*El	 fondo	 del	 elemento #menu
+ se	 construye	 mediante	 una	 pequeña	 imagen	
+llamada fondo_menu.gif.*/
 #contenido{width:77%;padding:0}
 #contenido #principal{width:73%}
 #contenido #secundario{border:1px solid #c60}
-#pie{padding:.5em 0;margin-top:1em;border-top:1px solid #c5c5c5;border-bottom:1px solid #c5c5c5; background-color: #F8F8F8;}
+#pie{padding:.5em 0;margin-top:1em;border-top:1px solid #c5c5c5;border-bottom:1px solid #c5c5c5; background-color: #F8F8F8;}/*Los	elementos
+ #noticias y #pie tiene	un	color	de fondo	gris	claro	(#F8F8F8).*/
 #contenido #principal .articulo{margin-bottom:1em}
 #contenido #principal .articulo img{margin:.5em}
-#lateral #noticias{border:1px solid #c5c5c5; background-color: #F8F8F8}
-#lateral #publicidad{margin-top:1em;border:1px dashed #c60; background-color:#FFF6CD;}
-#secundario h2{background-color: #DB905C; padding: .2em;}
+#lateral #noticias{border:1px solid #c5c5c5; background-color: #F8F8F8} /*Los	elementos
+ #noticias y #pie tiene	un	color	de fondo	gris	claro	(#F8F8F8).*/
+#lateral #publicidad{margin-top:1em;border:1px dashed #c60; background-color:#FFF6CD;}/*El	elemento 
+#publicidad muestra	un	color	de	fondo	amarillo	claro	(#FFF6CD).*/
+#secundario h2{background-color: #DB905C; padding: .2em;}/* Los	elementos <h2> 
+del	lateral #secundario muestran	 un	 color	 de	 fondo #DB905C y	un	
+pequeño	padding	de .2em.*/
